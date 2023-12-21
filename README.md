@@ -1,6 +1,6 @@
-## Getting Started with ### `npm install`
+## Getting Started with `npm install`
 
-## This command will ask you some questions to generate a package.json file in your project route that describes all the dependencies of your project.
+This command will ask you some questions to generate a package.json file in your project route that describes all the dependencies of your project.
 
 ### `npm init`
 
