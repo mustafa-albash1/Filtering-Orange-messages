@@ -1,0 +1,69 @@
+body {
+  background-color: hsl(210, 90%, 55%);
+}
+#root {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  background-color: white;
+  width: 80vw;
+}
+
+textarea {
+  resize: none;
+  border: 3px solid hsl(210, 90%, 55%);
+  width: 100%;
+  height: 100%;
+}
+
+.exportButton {
+  width: fit-content;
+  padding: 1rem 4rem;
+  border: 3px solid hsl(210, 1%, 61%);
+  background-color: hsl(210, 1%, 61%);
+  margin-bottom: 20px;
+}
+
+.buttonOne {
+  margin-top: 5vh;
+  padding: 1rem 4rem;
+  border: 3px solid hsl(210, 90%, 55%);
+  background-color: hsl(210, 90%, 55%);
+  margin-right: 20px;
+  color: white;
+}
+.buttonTwo {
+  margin-top: 5vh;
+  padding: 1rem 4rem;
+  border: 3px solid hsl(210, 90%, 55%);
+  background-color: white;
+  margin-right: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.buttonOne:hover {
+  background-color: white;
+  color: hsl(210, 90%, 55%);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.buttonTwo:hover {
+  background-color: hsl(210, 90%, 55%);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.exportButton:hover {
+  border: 3px solid hsl(200, 1%, 45%);
+  background-color: hsl(200, 1%, 45%);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
